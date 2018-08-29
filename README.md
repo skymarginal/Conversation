@@ -2,7 +2,7 @@
 
 重写RecyclerView默认动画DefaultItemAnimator，修改其中添加动画的方法；
 
-主要修改方法：  
+主要方法：  
 ---
   animateAdd(final ViewHolder holder);  
   animateAddImpl(final ViewHolder holder);  
