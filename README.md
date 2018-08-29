@@ -1,2 +1,5 @@
-小V对话是一个对话式列表
-运用了RecyclerView动画展现别样体验
+# 对话式列表
+
+修改RecyclerView的默认动画SimpleItemAnimator达到对话式效果
+
+
