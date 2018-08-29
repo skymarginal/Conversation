@@ -2,13 +2,11 @@
 
 重写RecyclerView默认动画DefaultItemAnimator，修改其中添加动画的方法；
 
-主要方法：  
----
+**主要方法：**  
   animateAdd(final ViewHolder holder);  
   animateAddImpl(final ViewHolder holder);  
  
-修改如下：
----
+**修改如下：**
 ```
 @Override
 public boolean animateAdd(final ViewHolder holder) {
@@ -67,10 +65,10 @@ void animateAddImpl(final ViewHolder holder) {
 }
 ```
   
-最终效果：  
----
+**最终效果：**  
+
 <div align=center><img width="220" height="440" src="https://github.com/skymarginal/Conversation/blob/master/image/dialogue.gif"/></div>
   
-有收获的朋友点个赞吧！
+*有收获的朋友点个赞吧！*
 
 
