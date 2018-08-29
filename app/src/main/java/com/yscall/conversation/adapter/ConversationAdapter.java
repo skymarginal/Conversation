@@ -98,6 +98,8 @@ public class ConversationAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             case PROBLEM_TEXT:
                 viewType = ContentEnum.PROBLEM_TEXT.ordinal();
                 break;
+            default:
+                break;
         }
         return viewType;
     }
